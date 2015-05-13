@@ -1,0 +1,174 @@
+body {
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 760px;
+  margin: 0 auto;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  color: #444;
+}
+h1 {
+  font-size: 45px;
+  line-height: 52px;
+  margin-top: 52px;
+  margin-bottom: 26px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 52px;
+  margin-top: 52px;
+  margin-bottom: 26px;
+}
+h3, 
+p.emphasis {
+  font-size: 23px;
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+p:not(.emphasis) + p {
+  margin-top: 0;
+  text-indent: 1.618em;
+}
+
+ul {
+  padding: 0 0 0 1em;
+  margin-bottom: 26px;
+}
+
+ol {
+  padding: 0 0 0 1.3em;
+  margin-bottom: 26px;
+}
+
+/* Sanitation */
+hr {
+  border: none;
+  border-bottom: 1px solid black;
+  padding-top: 25px;
+  margin: 0 0 52px;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+body.thin {
+  max-width: 290px;
+}
+
+body.wide {
+  max-width: 600px;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: 'Noto Serif', serif;
+  text-rendering: optimizeLegibility; 
+  color: #222;
+}
+
+.light {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+p.emphasis {
+  font-weight: 300;
+}
+
+blockquote {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  margin: 26px;
+}
+
+blockquote small {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.author {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+}
+
+.subtitle {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-variant: small-caps;
+  letter-spacing: .05em;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.subtitle.bold {
+  font-weight: 700;
+}
+
+.subtitle ~ h2, 
+.subtitle ~ h3,
+.subtitle ~ h4 {
+  margin-top: 0;
+}
+
+div.grid {
+  overflow: auto;
+}
+
+div.col-a, 
+div.col-b, 
+div.col-c, 
+div.col-ab,  
+div.col-bc {
+  float: left;
+} 
+
+div.col-a {
+  width: 19%; /* 0,618 */
+}
+
+div.col-b {
+  width: 50%; /* 1,618 */
+}
+
+div.col-c {
+  width: 31%;  /* 1 */
+}
