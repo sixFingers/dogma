@@ -4,6 +4,7 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 26px;
+  color: #444;
 }
 
 h1,
@@ -14,7 +15,7 @@ h5,
 h6 {
   font-family: 'Noto Serif', serif;
   text-rendering: optimizeLegibility;
-  color: #222;
+  color: #282B30;
 }
 
 h1 {
@@ -48,6 +49,12 @@ h4 {
   margin-bottom: 26px;
   font-size: 16px;
   line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: #CD241B;
+  font-family: 'Noto Serif', serif;
 }
 
 ul, ol, pre, table, blockquote {
@@ -154,7 +161,6 @@ body.wide {
   margin-top: 0;
 }
 
-
 div.grid {
   overflow: auto;
 }
@@ -181,4 +187,19 @@ div.col-c {
 
 * {
   /*background-color: rgba(0, 0, 0, .1);*/
+}
+
+/* See http://www.colourlovers.com/palette/1416240/Klever_spidey */
+
+.welcome {
+  background-color: #282B30;
+  /*background-color: #CD241B;*/
+}
+
+.welcome h1 {
+  color: white;
+}
+
+.welcome h1 span {
+  color: #CD241B;
 }
